@@ -6,7 +6,7 @@ import numpy as np
 from torchvision import models
 import torch.nn as nn
 
-BASE = os.path.dirname(os.path.dirname(__file__))
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 XGB_PATH = os.path.join(BASE, "models", "forensic_model.pkl")
 CNN_PATH = os.path.join(BASE, "cnn", "cnn_model.pth")

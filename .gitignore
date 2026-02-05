@@ -1,11 +1,8 @@
 venv/
 data/
-models/
-cnn/
 wave2vec/
-*.pth
-*.pkl
 *.bin
 *.safetensors
 *.mp3
 *.wav
+__pycache__/
